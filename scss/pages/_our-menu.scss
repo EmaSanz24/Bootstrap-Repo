@@ -1,0 +1,48 @@
+/*Our Menu*/
+
+.menu{
+  .our-menu {
+    @media only screen and (max-width: 767px) {
+      height: $banner-h;
+    }
+    @media only screen and (min-width: 768px) {
+      height: $banner-h-t;
+    }
+    @media only screen and (min-width: 1024px) {
+      height: $banner-h-d;
+    }
+    background-image: url(../media/images/menu-kazumi.jpg);
+    background-position: center;
+    background-size: 135%;
+    @include flex-column-center;
+    align-items: center;
+    h2 {
+      color: $white;
+      padding: 2rem;
+      font-size: 25px;
+    }
+  }
+ h2{
+   color: $white;
+   font-size: 40px;
+   padding: 2%;
+ }
+ .items{
+   div{
+     margin-bottom: 1.5rem;
+     text-transform: uppercase;
+     padding-left: 2%;
+     span{
+      padding: 0;
+      color: $white;
+      font-size: 30px;
+      }
+      p{
+        margin: 0;
+        padding: 0;
+        color: $orange;
+        font-size: 15px;
+      }
+   }
+ }
+}

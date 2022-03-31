@@ -1,0 +1,15 @@
+footer {
+  padding-left: 3rem;
+  color: $light-gray;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  a {
+    color: $light-gray;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $orange;
+  }
+}

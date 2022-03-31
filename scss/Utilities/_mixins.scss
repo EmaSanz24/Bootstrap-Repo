@@ -1,0 +1,20 @@
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@mixin logo-mb {
+  max-height: 86px;
+  margin-top: 17px;
+  margin-left: 25px;
+}
+@mixin logo-tb {
+  max-height: 105px;
+  margin-top: 17px;
+  margin-left: 25px;
+}
+@mixin logo-dk {
+  max-height: 105px;
+  margin-top: 17px;
+  margin-left: 25px;
+}

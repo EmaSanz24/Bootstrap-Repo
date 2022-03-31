@@ -1,0 +1,14 @@
+/*Gallery*/
+.gallery {
+  img {
+    
+    padding-bottom: 10px;
+  }
+  img:hover {
+    transition: all 1s ease-out;
+    transform: scale(1.07);
+    max-width: 100%;
+    border: $light-gray solid 3px;
+    padding: 0px;
+  }
+}

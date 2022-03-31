@@ -1,0 +1,23 @@
+header {
+  nav {
+    @include flex-column-center;
+    width: 100%;
+    background-color: $nav-bgcolor;
+    text-align: center;
+    @media only screen and (max-width: 767px) {
+      .logo {
+        @include logo-mb;
+      }
+    }
+    @media only screen and (min-width: 768px) {
+      .logo {
+        @include logo-tb;
+      }
+    }
+    @media only screen and (max-width: 1024px) {
+      .logo {
+        @include logo-dk;
+      }
+    }
+  }
+}
