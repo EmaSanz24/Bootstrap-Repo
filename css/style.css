@@ -172,6 +172,10 @@ footer a:hover {
   color: #c0996b;
 }
 
+footer img {
+  width: 35px;
+}
+
 /*About Us*/
 .about-us .ab-us {
   background-image: url(../media/images/about-1.jpg);
@@ -338,5 +342,10 @@ footer a:hover {
   padding: 0;
   color: #c0996b;
   font-size: 15px;
+}
+
+.menu aside img {
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
