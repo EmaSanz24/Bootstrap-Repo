@@ -8,12 +8,11 @@ footer {
     color: $light-gray;
     font-size: 17px;
     text-decoration: none;
+    img{
+      width: 20px;
+    }
   }
   a:hover {
     color: $orange;
-  }
-  img{
-    width: 35px;
-
   }
 }

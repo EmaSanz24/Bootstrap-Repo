@@ -168,12 +168,12 @@ footer a {
   text-decoration: none;
 }
 
-footer a:hover {
-  color: #c0996b;
+footer a img {
+  width: 20px;
 }
 
-footer img {
-  width: 35px;
+footer a:hover {
+  color: #c0996b;
 }
 
 /*About Us*/
